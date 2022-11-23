@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add-Scenario</title>
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet"> 
+    <!-- font-family: 'Cabin', sans-serif; -->
+
+     
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pexels-lukas-669615.jpg">
+    <script src="https://kit.fontawesome.com/7077047367.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="navigation">
+            <ul id="first_ul">
+                <li >
+                    <a href="index.html">
+                    <span class="icon"><i class="fa fa-home" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Home</span>
+                    </a>
+                </li>
+                <li >
+                    <a href="addScenario.html">
+                    <span class="icon"><i class="fa-solid fa-circle-plus"></i></span>
+                    <span class="title">Add Scenario</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="allScenario.html">
+                    <span class="icon"><i class="fa-solid fa-person-dots-from-line"></i></span>
+                    <span class="title">All Scenarios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="addVehicle.html">
+                    <span class="icon"><i class="fa-solid fa-truck"></i></span>
+                    <span class="title">Add vehicle</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+     </div>
+
+    
+       <h3 class="main1">Scenario/add</h3>
+
+       <h2 class="main2">Add Scenario</h2>
+
+<div class="wrapper">
+    <div class="form">
+        <div id="mainForm">
+            <form class="mainFramefname">
+                
+                <div class="field fname">
+                    <div class="input-area">
+                        <label for="fname" >Scenario Name </label><br>
+                        <input type="text" placeholder="Test Scenario" class="ADS-input" required>
+                    </div>
+                </div>
+            </form>
+
+            <form class="mainFramelname">
+
+              <div class="field lname">
+                <div class="input-area">
+                    <label for="lname">Scenario Time(seconds)</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="10" class="ADS-input" required>
+                </div>
+              </div>
+
+            </form> 
+            
+        </div>
+    </div>    
+</div>
+
+<button class="ADS-button-1" ><strong>Add</strong></button>
+<button class="ADS-button-2" type="reset"><strong>Reset</strong></button>
+<button class="ADS-button-3" type="reset"><strong>Go back</strong></button>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="appex.js"></script>
+</body>
+</html>
